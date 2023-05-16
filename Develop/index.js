@@ -8,22 +8,22 @@ const questions = [
     {
         type: "input",
         name: "Title",
-        message: "What is the title of your project?:"
+        message: "What is the title of your project?",
     },
     {
         type: "input",
         name: "Description",
-        message: "Please enter a description of your project:"
+        message: "Please enter a description of your project",
     },
     {
         type: "input",
         name: "Installation",
-        message: "What are the steps to download your application?:"
+        message: "What are the steps to download your application?",
     },
     {
         type: "input",
         name: "Usage",
-        message: "Please include instructions on how to user your application:"
+        message: "Please include instructions on how to use your application.",
     },
     {
         type: "input",
@@ -34,27 +34,27 @@ const questions = [
     {
         type: "input",
         name: "Contributions",
-        message: "Please enter your contribution guidelines:"
+        message: "Please enter your contribution guidelines.",
     },
     {
         type: "input",
         name: "Test",
-        message: "Please enter your test instructions:"
+        message: "Please enter your test instructions.",
     },
     {
         type: "input",
         name: "Author",
-        message: "Please enter your name:"
+        message: "Please enter your name.",
     },
     {
         type: "input",
         name: "Email",
-        message: "Please enter your email:"
+        message: "Please enter your email.",
     },
     {
         type: "input",
         name: "Github",
-        message: "Please enter your github username:"
+        message: "Please enter your github username.",
     },
 ];
 
@@ -64,7 +64,7 @@ const questions = [
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((data) => {
-        fs.writeFile("README.md", generateMarkdown(data), (err) => 
+        fs.writeFile("Generated README.md", generateMarkdown(data), (err) => 
             err ? console.log(err) : console.log("Success!")
         );
     }
@@ -72,4 +72,4 @@ function init() {
 }
 
 // Function call to initialize app
-init();
+init(generateMarkdown);

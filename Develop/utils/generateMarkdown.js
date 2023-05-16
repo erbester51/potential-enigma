@@ -1,5 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 function generateMarkdown(data) {
+
   if (data.license === "MIT License") {
     data.badge = '[![badge](https://img.shields.io/badge/License-mit-red)](https://choosealicense.com/licenses/mit)';
     data.license = `## License
@@ -25,38 +26,22 @@ data.license = `## License
     https://choosealicense.com/licenses/mpl-2.0/`;
 
   }
-  else (data.badge === "", data.license === "");
-}
+  else (data.badge = "", data.license = "");
 
-"Mozilla Public License 2.0"
-
-// If there is no license, return an empty string
-// function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+ return `# ${data.title}
 
 ## Description  
 ${data.description}
 
 ## Table of Contents
--[Installation](#installation)
--[Usage](#Usage)
--[License](#License)
--[Contributions](#Contributions)
--[Test](#Test)
--[Author](#Author)
--[Email](#Email)
--[Github](#Github)
+- [Installation](#installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Contributions](#Contributions)
+- [Test](#Test)
+- [Author](#Author)
+- [Email](#Email)
+- [Github](#Github)
 
 ## Installation
 ${data.installation}
@@ -81,9 +66,9 @@ Please let me know if you have any questions!
 
 * Email: ${data.email}
 
-*Github: ${data.github}
-
-`;
-}
+* Github: [${data.username}](https://github.com/${data.username})
+  
+`
+};
 
 module.exports = generateMarkdown;
