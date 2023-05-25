@@ -14,4 +14,4 @@ GeneratedREADME Output:
 ![alt text](https://github.com/erbester51/potential-enigma/blob/main/Develop/images/Generated_ReadMe.png)
 
 Video
-
+![alt text](https://github.com/erbester51/potential-enigma/blob/main/Develop/images/Application%20Video.mp4)
