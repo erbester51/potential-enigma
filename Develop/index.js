@@ -1,8 +1,8 @@
-// TODO: Include packages needed for this application
+
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown")
-// TODO: Create an array of questions for user input
+
 const questions = [
     {
         type: "input",
@@ -12,22 +12,22 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "Tell me about your repository! This will be included in the 'Description' tab of your README.",
+        message: "Please provide a description of your project.",
     },
     {
         type: "input",
         name: "installation",
-        message: "What steps are required to install your application, if any?",
+        message: "How do I install your project?",
     },
     {
         type: "input",
         name: "usage",
-        message: "Please include instructions on how to use your application! (A spot to include a screenshot will be inside your README after generating.)",
+        message: "Please provide how I would use your project.",
     },
     {
         type: "input",
         name: "contribution",
-        message: "Please include any contributions that you may have had!",
+        message: "Who has contributed to your project?",
     },
     {
         type: "list",

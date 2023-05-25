@@ -1,8 +1,8 @@
-# Generate README
+# My Cool Project!
 
   ## Description
   
-  Stuff
+  This is what cool projects consist of
   
   [![badge](https://img.shields.io/badge/License-mit-red)](https://choosealicense.com/licenses/mit/)
 
@@ -19,13 +19,13 @@
   
   ## Usage
   
-  Go for it!
+  Use it how you see fit within the confines of the law
   
      ![-YOUR PROJECT NAME](-LINK TO YOUR SCREENSHOT-)
   
   ## Credits
   
-  All the contributions
+  Me
   
   ## Questions
   
