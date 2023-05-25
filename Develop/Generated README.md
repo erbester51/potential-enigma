@@ -1,8 +1,8 @@
-# My Cool Project!
+# My cool project!
 
   ## Description
   
-  This is what cool projects consist of
+  Please use carefully within the confines of the law
   
   [![badge](https://img.shields.io/badge/License-mit-red)](https://choosealicense.com/licenses/mit/)
 
@@ -19,7 +19,7 @@
   
   ## Usage
   
-  Use it how you see fit within the confines of the law
+  Please use carefully
   
      ![-YOUR PROJECT NAME](-LINK TO YOUR SCREENSHOT-)
   
