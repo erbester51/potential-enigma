@@ -7,5 +7,11 @@ This application will create a README file for any project that you create and p
 This application cane be cloned from the below repository.
 
 ## Screenshots
+Questions and prompts:
+![alt text](https://github.com/erbester51/potential-enigma/blob/main/Develop/images/Questions.png)
 
+GeneratedREADME Output:
+![alt text](https://github.com/erbester51/potential-enigma/blob/main/Develop/images/Generated_ReadMe.png)
+
+Video
 
